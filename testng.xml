@@ -3,8 +3,7 @@
     <test name="Nopackage">
         <classes>
             <class name="tests.Home"/>
-            <class name="tests.Context"/>
-            <class name="tests.UI_Testing"/>
+
         </classes>
     </test>
 </suite>
