@@ -1,0 +1,32 @@
+[
+
+    {
+      "eventName": "JavaScript Conference",
+      "eventTitle": "JavaScript Conference",
+      "category": "Sports",
+      "location": "Pune",
+      "venue": "Hinjewadi",
+      "dateTime": "2026-09-15T10:00",
+      "duration": "300",
+      "capacity": "250",
+
+    "fullName": "avishkar123",
+    "email": "abcsd@gmail.com",
+    "phoneNumber": "1234567892"
+  }
+  ,
+  {
+    "eventName": "React 19 event",
+    "eventTitle": "React 19 event",
+    "category": "Sports",
+    "location": "Pune",
+    "venue": "Kalyani Nagar",
+    "dateTime": "2026-08-27T17:03",
+    "duration": "300",
+    "capacity": "300",
+    "fullName": "afdadf123",
+    "email": "abcsd234@gmail.com",
+    "phoneNumber": "9503573862"
+  }
+
+]

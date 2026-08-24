@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "title": "Dilli Diwali Mela",
+      "description": "Diwali celebration event",
+      "category": "Festival",
+      "venue": "Delhi",
+      "eventDate": "2026-10-20T16:49:00.000Z",
+      "city": "Delhi",
+      "price": 100.0,
+      "totalSeats": 500
+    },
+    {
+      "id": 2,
+      "title": "Hollywood Monsoon Night — Los Angeles",
+      "description": "Monsoon night celebration",
+      "category": "Music",
+      "venue": "Hollywood",
+      "eventDate": "2026-09-15T16:49:00.000Z",
+      "city": "Los Angeles",
+      "price": 50.0,
+      "totalSeats": 300
+    },
+    {
+      "id": 1,
+      "title": "World Tech Summit",
+      "description": "Global technology conference",
+      "category": "Technology",
+      "venue": "Convention Center",
+      "eventDate": "2026-11-10T16:49:00.000Z",
+      "city": "Bangalore",
+      "price": 200.0,
+      "totalSeats": 1000
+    },
+    {
+      "id": 96204,
+      "title": "aqerbc",
+      "description": "adqrewqsf",
+      "category": "Concert",
+      "venue": "adsfads",
+      "eventDate": "2026-08-19T16:49:00.000Z",
+      "city": "Pune",
+      "price": 0.03,
+      "totalSeats": 223
+    },
+    {
+      "id": 95588,
+      "title": "React event",
+      "description": "React 19 event",
+      "category": "Sports",
+      "venue": "Tech Arena",
+      "eventDate": "2026-08-25T16:49:00.000Z",
+      "city": "Pune",
+      "price": 100.0,
+      "totalSeats": 200
+    },
+    {
+      "id": 87452,
+      "title": "Java Developer Meetup",
+      "description": "A meetup for Java developers to learn and discuss modern Java technologies",
+      "category": "Technology",
+      "venue": "Innovation Hub",
+      "eventDate": "2026-09-05T16:49:00.000Z",
+      "city": "Pune",
+      "price": 150.0,
+      "totalSeats": 250
+    }
+
+  ]
+}
