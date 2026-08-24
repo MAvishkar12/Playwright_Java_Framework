@@ -38,7 +38,7 @@ public class BaseTemplate {
         }
         else if("chrome".equals(browser1)){
             System.out.println("chrome browser start");
-            browser = playwright.chromium().launch((new BrowserType.LaunchOptions().setHeadless(false)));
+            browser = playwright.chromium().launch();
         }
 
 
