@@ -1,0 +1,1 @@
+{"uuid":"580ec7dd-fb00-45ec-aa96-b280080f0a97","name":"tests.BaseTemplate.startMe","children":["e9261086-f627-489f-acf2-32af2ba060ad"],"description":"","befores":[{"name":"startMe","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1787557038880,"stop":1787557039363}],"afters":[],"start":1787557038880,"stop":1787557039363}

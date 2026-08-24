@@ -17,8 +17,7 @@ public class UI_Testing {
     @BeforeMethod(alwaysRun = true)
     public  void beforeMethod(){
        playwright= Playwright.create();
-       browser= playwright.chromium().launch(new BrowserType.LaunchOptions()
-               .setHeadless(false));
+       browser= playwright.chromium().launch();
         context = browser.newContext();
         context.tracing().start(new Tracing.StartOptions()
                 .setScreenshots(true)
@@ -30,31 +29,27 @@ public class UI_Testing {
 
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public  void closeMethod(){
         context.tracing().stop(new Tracing.StopOptions()
                 .setPath(Paths.get("trace.zip")));
     }
 
-    @Test(groups = {"smoke"})
+    @Test
     public void TestUI(){
         page.locator("#show-textbox").click();
       Locator input= page.getByPlaceholder("Hide/Show Example", new Page.GetByPlaceholderOptions().setExact(true));
       assertThat(input).isVisible();
-//        page.locator("#hide-textbox").click();
-//        assertThat(input).isHidden();
-//        page.screenshot(new Page.ScreenshotOptions()
-//                .setPath(Paths.get("screenshot.png")));
         input.screenshot(new Locator.ScreenshotOptions().setPath(Paths.get("newscreenshot.png")));
 
     }
 
-    @Test(groups = {"sanity"})
+    @Test
     public void MosueHover(){
         page.getByText("Mouse Hover", new Page.GetByTextOptions().setExact(true)).hover();
         page.getByText("Top", new Page.GetByTextOptions().setExact(true)).click();
     }
-    @Test(groups = {"sanity"})
+    @Test
     public  void Frame(){
        FrameLocator frameL= page.frameLocator("#courses-iframe");
        String heading=frameL.locator(".header-text h2").innerText();
