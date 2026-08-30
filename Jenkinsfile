@@ -20,7 +20,7 @@ pipeline {
         stage('Install Playwright Browsers') {
             steps {
                 echo 'Installing Playwright browsers...'
-                bat 'mvn exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install"'
+                bat 'mvn exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install chrome"'
             }
         }
 
